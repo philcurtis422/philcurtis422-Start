@@ -22,7 +22,7 @@ public class GuideMain {
      *             information for running the app. We won't be using this.
      */
     public static void main(String[] args) {
-//      The Guide object constructor is written to take in an int parameter, which in this case is 1.
+//      The Guide object constructor is written to take in an int parameter, which in tis case is 1.
         Guide myGuide = new Guide(1);
         String result = myGuide.guideMethod("hello from main!");
         System.out.println(result);
